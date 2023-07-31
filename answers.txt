@@ -1,0 +1,20 @@
+Times:
+
+10 simulations: 0m0.027s
+100 simulations: 0m0.029s
+1000 simulations: 0m0.034s
+10000 simulations: 0m0.101s
+100000 simulations: 0m0.786s
+1000000 simulations: 0m7.627s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?:
+
+When the number of simulations is less then the absolute winner or the team with highest probability of winning the tournament is really difficult to determine, as the top position for highest chance of winning is not the same every time the program is executed. For 2018m.csv my prediction of Belgium having the highest chance of winning(since it has the highest rating) with less simulations was not really the case.
+I was also under the impression that on increasing the number of simulations, the winning percentage of the teams with higher rating will increase. But my prediction was wrong, instead with winning percentage of most of the teams dropped with gradual increase in number of simulations. This actually makes more sense, as in a tournament it is not likely for a team to have about 40% chance of winning.
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?:
+
+I'd say at 10000 simulations it pretty much gives you the same result when it comes to teams with higher chances of winning, but since a fee would be charged for each second and not milliseconds, therefore, 100000 simulations would be a better option as the computation time for it doesn't cross 1 second and the result is quite on par with 1000000 simulations.
